@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <style>
+        .black{
+            color: red;
+            background-color: black;
+            transform: scale(3);
+        }
+    </style>
+  
+</head>
+
+<body>
+    <div id="toolbar">
+      <div id="btn-add-container">
+        <button id="btn-add" class="one-bounce">Flow starting from outside (1 bounce)</button>
+      </div>
+      <div id="btn-add-container" class="mb-2">
+        <button id="btn-add" class="two-bounce">Flow starting from outside (2 bounce)</button>
+      </div>
+      <div id="btn-add-container">
+        <button id="btn-add" class="one-bounce-inside">Flow starting from inside (1 bounce)</button>
+      </div>
+      <div id="btn-add-container">
+        <button id="btn-add" class="two-bounce-inside">Flow starting from inside (2 bounce)</button>
+      </div>
+    </div>
+
+
+    <div id="cy" ></div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/cytoscape/3.23.0/cytoscape.min.js" integrity="sha512-gEWKnYYa1/1c3jOuT9PR7NxiVI1bwn02DeJGsl+lMVQ1fWMNvtjkjxIApTdbJ/wcDjQmbf+McWahXwipdC9bGA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="index.js"></script>
+</body>
+</html>
